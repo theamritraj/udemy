@@ -1,3 +1,5 @@
+//import AchievementSection from "./components/AchievementSection"
+import CompanySection from "./components/CompanySection"
 import Header from "./components/Header"
 import PricingSection from "./components/PricingSection"
 
@@ -8,11 +10,8 @@ const App = () => {
     <>
     <Header/>
     <PricingSection />
-    <PricingSection />
-    <PricingSection />
-    <PricingSection />
-    <PricingSection />
-    <PricingSection />
+    <CompanySection/>
+    {/* <AchievementSection /> */}
     </>
   )
 }

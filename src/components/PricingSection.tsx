@@ -66,6 +66,8 @@ const PricingPlans = () => {
           </div>
         ))}
       </div>
+      <div>
+      </div>
     </section>
   );
 };

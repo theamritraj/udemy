@@ -33,13 +33,13 @@ const Header = () => {
         <nav className="hidden md:flex items-center space-x-6 text-gray-700 font-medium">
           <a href="#" className="hover:text-black">Plans & Pricing</a>
           <a href="#" className="hover:text-black">Udemy Business</a>
-          <a href="#" className="hover:text-black">Teach on Udemy</a>
-          <ShoppingCart size={20} className="cursor-pointer hover:text-black" />
+          <a href="#" className="hover:text-black ">Teach on Udemy</a>
+          <ShoppingCart size={20} className="cursor-pointer hover:text-black"  />
         </nav>
 
         {/* Auth Buttons & Language */}
         <div className="flex items-center space-x-3">
-          <Button variant="outline" className="border-purple-600 text-purple-600">
+          <Button variant="outline" className="border-purple-600 text-purple-600 ml-4">
             Log in
           </Button>
           <Button className="bg-purple-600 text-white hover:bg-purple-700">
