@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAchievements } from "../Data/achievements";
+import getAchievements from "../Data/achievements";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

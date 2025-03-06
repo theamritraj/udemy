@@ -1,6 +1,4 @@
-// src/api/achievements.ts
-
-export const getAchievements = async () => {
+const getAchievements = async () => {
   return {
     heading: "See what others are achieving through learning",
     contents: [
@@ -35,3 +33,5 @@ export const getAchievements = async () => {
     ],
   };
 };
+
+export default getAchievements;

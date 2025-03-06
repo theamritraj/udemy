@@ -1,4 +1,4 @@
-export const getPlans = async () => {
+const getPlans = async () => {
   return [
     {
       title: "Personal Plan",
@@ -51,3 +51,4 @@ export const getPlans = async () => {
     },
   ];
 };
+export default getPlans;

@@ -1,4 +1,4 @@
-export const getCompanies = () => {
+const getCompanies = () => {
   return {
     heading: "Trusted by over 16,000 companies and millions of learners around the world",
     contents: [
@@ -37,3 +37,4 @@ export const getCompanies = () => {
     ],
   };
 };
+export default getCompanies;

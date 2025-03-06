@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { getPlans } from "../Data/plans";
+import getPlans from "../Data/plans";
 
 interface Plan {
   title: string;

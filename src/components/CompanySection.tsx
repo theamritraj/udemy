@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getCompanies } from "../Data/companies";
+import getCompanies from "../Data/companies";
 
 const CompanySection = () => {
   interface Company {
