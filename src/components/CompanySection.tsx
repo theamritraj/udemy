@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getCompanies } from "../API/companies";
+import { getCompanies } from "../Data/companies";
 
 const CompanySection = () => {
   interface Company {
@@ -22,7 +22,7 @@ const CompanySection = () => {
 
       <div className="relative overflow-hidden w-full">
         <div className="flex items-center gap-10 animate-scroll">
-          
+
           {/* Duplicate the logos to create an infinite scrolling effect */}
           {[...data.contents, ...data.contents].map((company, index) => (
             <img
